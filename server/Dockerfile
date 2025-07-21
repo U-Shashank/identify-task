@@ -10,9 +10,9 @@ RUN pnpm install
 
 COPY . .
 
-RUN pnpm build
-
 RUN pnpm prisma:generate
+
+RUN pnpm build
 
 EXPOSE 3000
 
