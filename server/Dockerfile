@@ -16,4 +16,4 @@ RUN pnpm build
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "pnpm prisma:deploy && pnpm dev"]
+CMD ["sh", "-c", "pnpm prisma:deploy && pnpm start"]

@@ -3,7 +3,7 @@
 This project implements the backend service for Bitespeed's identity reconciliation task. It provides an `/identify` endpoint to link customer orders based on email and phone numbers, ensuring a personalized customer experience.
 
 ## Live Link
-The application is deployed and can be accessed here: [Bitespeed Task Live](https://bitespeed-task-production-b967.up.railway.app/)
+The application is deployed on render and can be accessed here: [Identify Task Live](https://identify-task.onrender.com)
 
 ## Tech Stack
 
@@ -44,7 +44,7 @@ This endpoint processes incoming customer contact details and consolidates their
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/U-Shashank/identify-task.git
-    cd bitespeed-task
+    cd indentify-task
     ```
 
 2.  **Build and Run with Docker Compose:**
@@ -54,7 +54,7 @@ This endpoint processes incoming customer contact details and consolidates their
 
 ## Testing the Endpoint
 
-You can use `curl` or a tool like Postman/Insomnia to test the `/identify` endpoint.
+You can use `curl` or a tool like Postman/Insomnia to test the `/api/identify` endpoint.
 
 **Example Request:**
 
